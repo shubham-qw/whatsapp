@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+section.chat_section {
+    width: 800px;
+    max-width: 90%;
+    background: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2),2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px 10px 0 0;
+}
+
+.brand {
+    background: ghostwhite;
+    display : flex;
+    padding : 15px;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.brand h1 {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.message_area {
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top: 40px;
+}
+
+
+#textarea {
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.message {
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+
+.incoming {
+    background-color: greenyellow;
+    
+}
+
+.outgoing {
+    background-color: aliceblue;
+    margin-left: auto;
+}
+
+.message h4 {
+    position: absolute;
+    top : -20px;
+    left : 0;
+    font-size: 14px;
+}
